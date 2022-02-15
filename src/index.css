@@ -3,3 +3,19 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Header Start */
+header {
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+}
+.logo {
+  margin: 0;
+  display: inline-block;
+}
+.login-button {
+  display: inline-block;
+  margin-left: auto;
+}
+
+/* Header End */

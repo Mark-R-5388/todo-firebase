@@ -21,9 +21,17 @@ header {
 
 /* Header End */
 
+/* Form List Container */
+.form-list-container {
+  min-height: 15rem;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Form Start */
 form {
-  display: inline-block;
+  height: 10rem;
   max-width: 50%;
   width: 400px;
   padding: 1.5rem 1rem;
@@ -37,13 +45,39 @@ form input {
 
 /* Todo List Container Start */
 .todo-list-main-container {
-  display: inline-block;
   max-width: 50%;
   width: 400px;
-  margin-left: auto;
 }
 
 ul {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  height: 3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date {
+  margin-left: 0.75rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.delete-button {
+  margin-left: 1.5rem;
 }
 /* Todo List Container End */
+
+.empty-list {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+}

@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(240, 240, 240);
 }
 
 /* Header Start */
@@ -19,3 +20,30 @@ header {
 }
 
 /* Header End */
+
+/* Form Start */
+form {
+  display: inline-block;
+  max-width: 50%;
+  width: 400px;
+  padding: 1.5rem 1rem;
+}
+
+form label,
+form input {
+  color: black;
+}
+/* Form End */
+
+/* Todo List Container Start */
+.todo-list-main-container {
+  display: inline-block;
+  max-width: 50%;
+  width: 400px;
+  margin-left: auto;
+}
+
+ul {
+  text-align: center;
+}
+/* Todo List Container End */

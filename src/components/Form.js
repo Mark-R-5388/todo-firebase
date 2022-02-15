@@ -1,6 +1,6 @@
 const Form = ({ handleSubmit }) => {
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="grey lighten-5" onSubmit={handleSubmit}>
       <label>
         Todo:
         <input type="text" name="todo" />

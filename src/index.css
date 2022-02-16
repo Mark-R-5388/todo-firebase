@@ -33,7 +33,7 @@ header {
 form {
   height: 10rem;
   max-width: 50%;
-  width: 400px;
+  width: 300px;
   padding: 1.5rem 1rem;
 }
 
@@ -46,7 +46,7 @@ form input {
 /* Todo List Container Start */
 .todo-list-main-container {
   max-width: 50%;
-  width: 400px;
+  width: 500px;
 }
 
 ul {

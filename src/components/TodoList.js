@@ -1,7 +1,6 @@
 import DeleteButton from "./DeleteButton";
 
 const TodoList = ({ todoList, setTodoList }) => {
-  console.log(todoList);
   return (
     <main className="todo-list-main-container">
       {todoList && (
@@ -18,7 +17,9 @@ const TodoList = ({ todoList, setTodoList }) => {
           ))}
         </ul>
       )}
-      {todoList.length === 0 && <p className="empty-list">Nothing todo</p>}
+      {todoList.length === 0 && (
+        <p className="empty-list">Add Something Todo Today</p>
+      )}
     </main>
   );
 };
